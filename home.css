@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(hii.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pic2{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 10px;
+    padding: 2px
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black; 
+    float: right;
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+ }
+  
+ .a2{
+     margin: 70px 5px 20px 10px;
+     padding: 4px;
+     font-size: large;
+     font-weight: 700;
+     font-family: cursive;
+ }
+ .tc{
+    color:red;
+    margin: 50px 5px 5px 10px ;
+    padding: 2px;
+  font-size: x-large;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+}
+.a3{
+   margin: 10px 5px 5px 10px;
+    padding: 2px;
+    float: left;
+  
+}
+.a4{
+    height: 90px;
+    width: 90px;
+   clip-path: circle(50% at 50% 50%);
+}
+.a5{
+    font-weight: 700;
+}
+.a6{
+    font-size: x-small;
+}
+.a7{
+   height: 90px;
+   width: 90px;
+   clip-path: ellipse(49% 38% at 50% 50%);
+}
+.a8{
+    height: 90px;
+    width: 90px;
+    clip-path: polygon(52% 2%, 92% 27%, 92% 73%, 49% 98%, 7% 73%, 8% 25%);
+}
+
+.a9{
+    height: 90px;
+    width: 90px;
+}

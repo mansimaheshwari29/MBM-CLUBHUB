@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: url(images/grass.jpg);
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+ul{ 
+    padding: 20px 30px 5px 30px; 
+    background-color: rgb(122, 110, 189);
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+ul li a{
+    padding:4px 20px;
+    text-decoration: none;
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+}
+.sprtsdiv{
+    padding: 0px 55px 0px 55px;}
+.navsports{
+    height: 4vw;
+}
+
+.basket{
+    background-color: #0707074f;
+    height: 60vh;
+    margin: 15px 10px 15px 10px;
+    border-radius: 25px;
+    overflow:auto;
+}
+.basket2{
+    background-color: #0707074f;
+    height: 50vh;
+    margin: 15px 10px 15px 10px;
+    border-radius: 25px;
+    overflow:auto;
+}
+
+.sportstext{
+    padding: 2px;
+    color:honeydew;
+    text-align: center;
+}
+
+.tittle{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Courier New';
+  }
+  .ball{
+      height: 10vh;
+      -webkit-animation: spin 3s linear infinite;
+      -moz-animation: spin 3s linear infinite;
+      animation: spin 3s linear infinite;
+  }
+  .ball3{
+    height: 7vh;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin{
+      100%{-webkit-transform: rotate(360deg);}
+  }
+  @-moz-keyframes spin{
+      100%{-webkit-transform: rotate(360deg);}
+  }
+  @keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+  }
+  .head1{
+      color:rgb(0, 248, 215);
+      font-size: x-large;
+  }
+  .table1,th,td{
+      border: 4px rgb(12, 12, 24)  solid ;
+      padding: 2px;
+      margin: 2px 0px 2px 220px;
+  }
+  .table2,th,td{
+    border: 4px rgb(12, 12, 24)  solid ;
+    padding: 2px;
+    margin: 2px 126px 2px 851px;
+  }
+.table3,th,td{
+    border: 4px rgb(12, 12, 24)  solid ;
+    padding: 2px;
+    margin: 2px 0px 2px 224px;
+}
+  .tittle2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Courier New'; 
+  }
+  .tittle3{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Courier New'; 
+  }
+.content{
+    color: white;
+    font-size:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.picslider{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: -13px 15px 24px;
+    background-image: url(images/bs3.jpg);
+    background-size: 100% 100%;
+    -webkit-animation:slider 50s infinite;
+    margin: 20px;
+    float: right;
+}
+
+@keyframes slider{
+    0%{background-image: url(images/bs1.jpg);}
+    15%{background-image: url(images/bs2.jpg);}
+    30%{background-image: url(images/bs8.jpg);}
+    45%{background-image: url(images/bs5.jpg);}
+    60%{background-image: url(images/bs6.jpg);}
+    75%{background-image: url(images/bs7.jpg);}
+    90%{background-image: url(images/bs4.jpg);}
+}
+.picslider2{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 13px 15px 24px;
+    background-image: url(images/fb1.jpg);
+    background-size: 100% 100%;
+    -webkit-animation :slider2 50s infinite;
+    margin: 20px;
+    float: left;
+}
+
+@keyframes slider2{
+    15%{background-image: url(images/fb2.jpg);}
+    40%{background-image: url(images/fb3.jpg);}
+    65%{background-image: url(images/fb4.jpg);}
+    95%{background-image: url(images/fb5.jpg);}
+}
+.picslider3{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 13px 15px 24px;
+    background-image: url(images/cs1.jpg);
+    background-size: 100% 100%;
+    -webkit-animation:slider3 50s infinite ;
+    margin: 20px;
+    float: right;
+}
+
+@keyframes slider3{
+    20%{background-image: url(images/cs2.jpg);}
+    45%{background-image: url(images/cs3.jpg);}
+    70%{background-image: url(images/cs4.jpg);}
+    95%{background-image: url(images/cs5.jpg);}
+}
+
+footer{
+    background-color:#0f2f4f;;
+    color: white;
+    height: 15vh;
+}
+.foot{
+    text-decoration: none;
+    color: white;
+    font-size: normal;
+    font-weight: 600;
+}
+.follow{
+    font-size: x-large;
+  text-align: center;
+    padding: 28px 100px 20px 100px;
+}
+.fa{
+    padding: 10px;
+}
+.fa-instagram{
+    color: rgb(190, 23, 149);
+}
+.fa-facebook{
+    color: blue;
+}

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 232, 216);
+}
+#header{
+    height: 100vh;
+    background-image: url(IMAGES/img-5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black; 
+    float: right;
+    font-size: large;
+    padding: 0 ;
+    margin: 15px;
+    margin-bottom: 30px;
+    font-style: bold;
+    font-family:  "Gill Sans", sans-serif;
+}
+.a1 a:hover {
+  border-bottom: 2px solid rgb(15, 12, 12);
+}
+
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.header-text h1{
+    position: relative;
+    top: 100px;
+    font-size: 60px;
+    color: brown;
+}
+
+.header-text h2{
+    position: relative;
+    top: 100px;
+}
+h2{
+    word-spacing: 10px;
+    line-height: 1.5;
+}
+
+.header-text h3{
+    position: relative;
+    top: 110px;
+    left: 30px;
+}
+
+h3{
+    font-size: 23px;
+    font-style: oblique;
+}
+
+.header-text .square{
+    position: relative;
+    top:146px;
+}
+
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: hsl(60, 2%, 10%);
+    margin: 15px 0;
+}
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+
+.about-left-col img{
+    width: 100%;
+}
+
+.about-right-col{
+    flex-basis: 50%;
+}
+
+.about-right-col .about-text h1{
+    font-size: 40px;
+    color: brown;
+}  
+
+  
+ .about-right-col .about-text p{
+    font-size: 25px;
+    font-style: italic;
+} 
+
+#details{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details-left-col{
+    flex-basis: 50%;
+}
+
+.details-right-col{
+    flex-basis: 50%;
+}
+
+.details-right-col img{
+    width: 100%;
+}
+
+
+
+.details-left-col .details-text h1{
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+}  
+
+.details-left-col .details-text p{
+    font-size: 25px;
+    text-align: center;
+}
+
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+
+#features h1{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+.a3{  
+    margin: 30px;
+     border-radius: 20px;
+     width: 550px;
+     height: 280px;
+     overflow: hidden;
+     text-align: center;
+     background-color:rgb(187, 154, 133);
+     box-shadow: lightgray 5px 10px;
+     border: 1px solid #626262;
+     padding: 50px;
+}
+ 
+ .a5 a{ 
+     color:black;
+     text-decoration: none;
+     font-size: 40px;
+     font-weight: 90;
+ }
+.a11{ 
+display: flex;
+} 
+
+.teammembername{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.teammemberposition{
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.connect{
+    background-color: rgb(5, 66, 63);
+    padding: 100px;
+    border-radius: 30px;
+}
+.connectheading{
+    color: rgb(211, 211, 223);
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.centerdiv{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    a{
+        height: 100px;
+        width: 100px;
+        background-color: #f5f6fa;
+        border-radius: 50px;
+        text-align:center;
+        margin:10px;
+        line-height: 110px;
+        box-shadow: 1px 4px 2px 2px lightgray;
+    }
+    a i {
+        transition: all 0.3s linear;
+    }
+    a:hover i {
+        transform:sacle(1.4);
+    }
+.centerdiv .fa-instagram{
+    color: #e84393;
+}
+.centerdiv .fa-linkedin{
+    color: #0e5074;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+top: 20px;
+justify-content: center;
+}
